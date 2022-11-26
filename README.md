@@ -340,7 +340,7 @@ where for $Z = \begin{pmatrix}Z_1 \\ Z_2 \end{pmatrix} \in \mathbb{R}^{3\times N
 $$
 \begin{aligned}
 &R'(Z) = \begin{pmatrix}R(Z_1)\\ 0\end{pmatrix}, \ \ \
-Z_{blur} = \begin{pmatrix}X_{blur}\\0 \end{pmatrix}\\
+Z_{blur} = \begin{pmatrix}X_{blur}\\ 0 \end{pmatrix}\\
 &n(Z) =\lVert Z_2 \rVert_1, \ \ \ 
 I_{\text{grad}}(Z) = \begin{cases}0 & \text{ if }DZ_1 = Z_2\\ \infty  & \text{ else} \end{cases}
 \end{aligned}
@@ -351,7 +351,7 @@ Define $f(Z) = n(Z), g(Z) = I_{\text{grad}}(Z)$ and $h(Z) =\frac{\lambda}{2}\lVe
 
 The proximal operator of $f$ is given by
 
-$$\text{prox}_{\tau f}(Z) = \begin{pmatrix}Z_1\\shink(Z_2,\tau)\end{pmatrix}$$
+$$\text{prox}_{\tau f}(Z) = \begin{pmatrix}Z_1\\ shrink(Z_2,\tau)\end{pmatrix}$$
 
 Moreover, the proximal operator of $g$ is given by
 
